@@ -28,6 +28,8 @@ android {
         namespace 'io.agora.agora_rtc_ng'
     }
     compileSdkVersion safeExtGet('compileSdkVersion', 31)
+     ndkVersion = "29.0.14033849"
+    
 
     defaultConfig {
         minSdkVersion safeExtGet('minSdkVersion', 21)
